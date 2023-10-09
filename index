@@ -49,8 +49,7 @@
 
         #home {
             background-image: linear-gradient(white, rgb(255, 227, 175));
-            padding-bottom: 4rem;
-            margin-bottom: 6rem;
+   
         }
     </style>
 </head>
