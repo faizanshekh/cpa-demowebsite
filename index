@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no" />
+    <title>A Certified Public Accountant demo website| Certified by United states of America </title>
+    <link rel="stylesheet" href="/CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/themes/odometer-theme-default.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <style>
+        body {
+            font-family: "Karla", sans-serif !important;
+        }
+
+        .nav-link:hover {
+            text-decoration: underline;
+
+        }
+        main{
+            overflow-x: hidden;
+        }
+        footer {
+            overflow-x: hidden;
+        }
+
+        @media (max-width:968px) {
+            .qoute-btn {
+                display: none;
+
+            }
+
+        }
+        #home{
+	padding-bottom:5rem;
+        }
+
+        .text-content {
+            margin-top: 14.5rem;
+        }
+
+        #home {
+            background-image: linear-gradient(white, rgb(255, 227, 175));
+            padding-bottom: 4rem;
+            margin-bottom: 6rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="bg-gradient">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="/index.html"><img class="responsive-image small-image"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZSLeCA1AuzjdczDCyaVJATLTI8-IrJBRJug&usqp=CAU"
+                            height="50px"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-dark active" aria-current="page" href="/index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-dark" id="aboutUsLink" href="/about.html">About us</a>
+                            </li>
+                            <a class="nav-link link-dark" href="/services.html">Services</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link link-dark dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Vision & More
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="/vision.html">Our Vision</a></li>
+                                    <li><a class="dropdown-item" href="/mission.html">Our Mission</a></li>
+                                    <li><a class="dropdown-item" href="/faq.html">Questions & Answers </a></li>
+                                    <li><a class="dropdown-item" href="/newsletter.html">News Letter</a></li>
+
+                                </ul>
+                            <li class="nav-item">
+                                <a class="nav-link link-dark" href="/team.html">Our Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-dark" href="/contact.html">Contact</a>
+                            </li>
+                            <div class="nav-item dropdown">
+                                <a class="nav-link link-dark dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    English
+                                </a>
+
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li>
+                                        <a class="dropdown-item" href="#">English</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Polski</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">中文</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">日本語</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Deutsch</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Français</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Español</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Русский</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Português</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-outline-dark qoute-btn" type="submit">Get a quote now >></button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="home">
+            <div class="container">
+                <div class="row justify-content-around">
+                    <div class="col-sm-12 col-md-10 col-lg-6">
+                        <div class="text-content text-dark">
+                            <h1>We are US Certified</h1>
+                            <h1>Public Accountants (US CPA)</h1>
+                            <h1>Lorem ipsum dolor sit</h1>
+                            <h4 class="text-secondary">Gain the skills and knowledge you need to Lorems ipsum dolor sit
+                            </h4>
+                            <button class="btn btn-outline-light bg-dark mt-3">Explore Now</button>
+                            <button class="btn btn-outline-dark mr-2 mt-3">Download Brochure</button>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-5 mt-5">
+                        <div class="parent mt-5">
+                            <img src="/images/hero-image-1.png" class="img-fluid responsive-image"
+                                alt="Business Meeting">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="About">
+            <div class="container mt-5">
+                <div class="row justify-content-center">
+                    <div class="col-sm-12 col-md-6 col-lg-5">
+                        <div class="parent">
+                            <img src="/images/about3.png" class="img-fluid responsive-image" alt="About Image">
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-7 col-md-12 mt-5">
+                        <div class="text-dark m-4">
+                            <h5 class="text-info">About us</h5>
+                            <h2>CPA is one of the world's largest accounting bodies</h2>
+                            <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+                                doloremque sapiente quod maiores
+                                perspiciatis! Velit sint unde modi provident sapiente. Repudiandae quibusdam, odit
+                                quidem
+                                facilis libero officiis nisi tempora odio eligendi dolores sequi</p>
+                            <button class="btn btn-outline-dark mr-2 mt-3">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-us-area ico-about-bg section-padding-100-70 clearfix">
+            <div class="bub-right" id="feat">
+                <div class="container mt-5">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-md-10 col-sm-12 col-lg-8">
+                            <h6 class="text-info">Our Services</h6>
+                            <h1 class="text-dark">What we provide?</h1>
+                            <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                                maxime sapiente praesentium officiis. Eos placeat doloribus dolores nulla atque eaque
+                                qui a
+                                sequi. Impedit in vel quisquam earum inventore eum!</p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center mt-4">
+                        <div class="col-12 col-md-5 col-lg-3 border m-2 p-4 border shadow bg-white rounded">
+                            <div class="services-box text-left mb-100 wow fadeInUp" data-wow-delay="0.2s">
+                                <img src="/images/Dollar.png" class="img-fluid responsive-image" width="30%"
+                                    alt="auditimg">
+                                <h6 class="mt-2">Interal Audit</h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorum.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-5 col-lg-3 border m-2 p-4 border shadow bg-white rounded">
+                            <div class="services-box text-left mb-100 wow fadeInUp" data-wow-delay="0.2s">
+                                <img src="/images/d-2.png" class="img-fluid responsive-image" width="30%"
+                                    alt="auditimg">
+                                <h6 class="mt-2">Extranal Audit</h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorum.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-5 col-lg-3 border m-2 p-4 border shadow bg-white rounded">
+                            <div class="services-box text-left mb-100 wow fadeInUp" data-wow-delay="0.2s">
+                                <img src="/images/d-3.png" class="img-fluid responsive-image" width="30%"
+                                    alt="auditimg">
+                                <h6 class="mt-2">Annual Report</h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorum.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-5 col-lg-3 border m-2 p-4 border shadow bg-white rounded">
+                            <div class="services-box text-left mb-100 wow fadeInUp" data-wow-delay="0.2s">
+                                <img src="/images/d-4.png" class="img-fluid responsive-image" width="30%"
+                                    alt="auditimg">
+                                <h6 class="mt-2">Compliances</h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorum.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-5 col-lg-3 border m-2 p-4 border shadow bg-white rounded">
+                            <div class="services-box text-left mb-100 wow fadeInUp" data-wow-delay="0.2s">
+                                <img src="/images/d-5.png" class="img-fluid responsive-image" width="30%"
+                                    alt="auditimg">
+                                <h6 class="mt-2">Legal Advice</h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorum.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-5 col-lg-3 border m-2 p-4 border shadow bg-white rounded">
+                            <div class="services-box text-left mb-100 wow fadeInUp" data-wow-delay="0.2s">
+                                <img src="/images/d-6.png" class="img-fluid responsive-image" width="30%"
+                                    alt="auditimg">
+                                <h6 class="mt-2">Financial Services</h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Our-team">
+            <div class="container mt-5 p-5">
+                <div class="row justify-content-center text-center">
+                    <div class="col-sm-12 col-md-10 col-lg-8 intro text-center">
+                        <h6 class="text-info">Our Team</h6>
+                        <h1>Meet Our Crew Members</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias reiciendis, magni vero
+                            tenetur reprehenderit quaerat magnam ad, neque accusantium vel doloribus dolor, esse
+                            consequuntur harum.</p>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center mt-5">
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="team-member">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIRYMT-G9iuOCsnC_A9vK0gFFYiCf5aQZi-w&usqp=CAU"
+                                alt="" class="responsive-image">
+                            <div class="overlay"></div>
+                            <div class="content">
+                                <h5>Peter Parker</h5>
+                                <p>Certified Public Accountant</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="team-member">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwW1KZ0wW3ffEbYDs_eMhi2spyGjICwSXOr1WZPBNX7rwaLjqA44llaubzUrC4bu6GrzI&usqp=CAU"
+                                alt="" class="responsive-image">
+                            <div class="overlay"></div>
+                            <div class="content">
+                                <h5>Leo Watson</h5>
+                                <p>Manager Manager</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="team-member">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeFSyoDp6twUKQQykM48Mg_79xIowBT9rjeyi6-1XcPL5javqlq7uRy9L4iKUvDyCBMrE&usqp=CAU"
+                                alt="" class="responsive-image">
+                            <div class="overlay"></div>
+                            <div class="content">
+                                <h5>Tom Luise</h5>
+                                <p>Project Manager</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="Blog">
+            <div class="container mt-4">
+                <div class="row justify-content-center text-center">
+                    <div class="col-sm-12 col-md-8 col-lg-8 text-center">
+                        <h6 class="text-info">Our Blog</h6>
+                        <h2>Latest Blog Posts</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe numquam expedita, labore dicta
+                            harum iure repellendus provident necessitatibus blanditiis quo!</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center m-4">
+                    <div class="col-sm-12 col-md-5 col-lg-4">
+                        <div class="blog-post">
+                            <img src="https://images.unsplash.com/photo-1572021335469-31706a17aaef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVvcGxlJTIwd29ya2luZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                                alt="" class="img-fluid responsive-image">
+                            <div class="content border p-3 shadow p-3 mb-5 bg-white rounded">
+                                <small>12 Dec, 2099</small>
+                                <h4 class="text-dark mt-2">
+                                    Accountant in 2005
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita cumque placeat id
+                                    accusantium sapiente mim consectetur omnis in, asperi maiores. Ipsum!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-5 col-lg-4">
+                        <div class="blog-post">
+                            <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aXQlMjBwcm9mZXNzaW9uYWx8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+                                alt="" class="img-fluid responsive-image">
+                            <div class="content border p-3 shadow p-3 mb-5 bg-white rounded">
+                                <small>2 Nov, 2044</small>
+                                <h4 class="text-dark mt-2">
+                                    Auditor in 2002
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita cumque placeat id
+                                    accusantium sapiente mim consectetur omnis in, asperi maiores. Ipsum!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-5 col-lg-4">
+                        <div class="blog-post">
+                            <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGVvcGxlJTIwd29ya2luZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                                alt="" class="img-fluid responsive-image">
+                            <div class="content border p-3 shadow p-3 mb-5 bg-white rounded">
+                                <small>8 Octo, 2055</small>
+                                <h4 class="text-dark mt-2">
+                                    Financial Officer in 2010
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita cumque placeat id
+                                    accusantium sapiente mim consectetur omnis in, asperi maiores. Ipsum!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="testimonial">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-sm-12 col-md-10 col-lg-8 text-center">
+                        <h6 class="text-info">Feedbacks</h6>
+                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias reiciendis</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid bg-secondary text-dark mt-3">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 col-md-10 col-sm-12">
+                        <img src="/images/mark-removebg-preview.png" class="img-fluid" width="10%">
+                        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner p-5">
+                                <div class="carousel-item active">
+                                    <div class="img-area">
+                                        <img src="/images/john doe.png" alt=""
+                                            class="img-fluid responsive-image">
+                                        <h3 class="text-light mt-2">Johnson Deo</h3>
+                                        <h5 class="text-light">California USA</h5>
+                                        <p class="text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                            Maxime praesentium unde
+                                            delectus at hic cum odio nesciunt, fugiat, quisquam sit facere ut,
+                                            necessitatibus
+                                            ratione enim harum fugit sed recusandae debitis. At eum maxime distinctio
+                                            earum beatae
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="img-area">
+                                        <img src="/images/amanda green.png" alt="bigstarimg"
+                                            class="img-fluid responsive-image">
+                                        <h3 class="text-light mt-2">Ammanda Leo</h3>
+                                        <h5 class="text-light">Toronto Canada</h5>
+                                        <p class="text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                            Maxime praesentium unde
+                                            delectus at hic cum odio nesciunt, fugiat, quisquam sit facere ut,
+                                            necessitatibus
+                                            ratione enim harum fugit sed recusandae debitis. At eum maxime distinctio
+                                            earum beatae
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="img-area">
+                                        <img src="/images/samcooper.png" alt="bigstarimg"
+                                            class="img-fluid responsive-image">
+                                        <h3 class="text-light mt-2">Samcooper</h3>
+                                        <h5 class="text-light">Paris France</h5>
+                                        <p class="text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                            Maxime praesentium unde
+                                            delectus at hic cum odio nesciunt, fugiat, quisquam sit facere ut,
+                                            necessitatibus
+                                            ratione enim harum fugit sed recusandae debitis. At eum maxime distinctio
+                                            earum beatae
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section id="contact-us" class="contact">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="contact-container">
+                            <h1 class="contact-heading">Reach us</h1>
+                            <p><i class="fas fa-paper-plane"></i> abc@gmail.com</p>
+                            <p><i class="fas fa-phone-square-alt"></i> +91123456789</p>
+                            <p>123 Main St, City, State, 12345
+                                Phone: (123) 456-7890
+                                Email: info@example.com</p>
+
+                            <ul class="list-inline">
+                                <li class="list-inline-item "><a href="#"><i
+                                            class="fa-brands fa-facebook-f text-dark"></i></a></li>
+                                <li class="list-inline-item "><a href="#"><i
+                                            class="fa-brands fa-x-twitter text-dark"></i></a></li>
+                                <li class="list-inline-item "><a href="#"><i
+                                            class="fa-brands fa-linkedin-in text-dark"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 offset-lg-3">
+                        <form name="submit-to-google-sheet">
+                            <div class="form-group">
+                                <label for="yourname">ENTER YOUR NAME</label>
+                                <input type="text" class="form-control border border-dark" id="yourname" name="Name"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <label for="yourmail">ENTER YOUR MAIL</label>
+                                <input type="email" class="form-control border border-dark" id="yourmail" name="Email"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <label for="yournumber">ENTER YOUR NUMBER</label>
+                                <input type="number" class="form-control border border-dark" id="yournumber"
+                                    name="number" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="yoursubject">ENTER YOUR SUBJECT</label>
+                                <input type="email" class="form-control border border-dark" id="yourmail" name="Email"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Type your Message Here...</label>
+                                <textarea class="form-control border border-dark" id="message" name="Message"
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary mt-2 mb-2">Send</button>
+                            <span id="msg"></span>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-4">
+                <div class="row">
+                    <div class="col-lg-10 col-md-10 col-sm-6 p-0">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.2687292194223!2d72.52665911496764!3d23.013903284957497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e850f4e7d38f7%3A0x906538cd2025f9cf!2sAccurate+Securities+and+Registry+Private+Limited!5e0!3m2!1sen!2sin!4v1559544384223!5m2!1sen!2sin"
+                                width="1150px" height="400px" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-dark text-light py-4 mt-5">
+        <div class="container-fluid m-4 p-3">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>Contact Us</h5>
+                    <p>123 Main St, City, State, 12345<br>
+                        Phone: (123) 456-7890<br>
+                        Email: info@example.com</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="/index.html" class="link-light">Home</a></li>
+                        <li><a href="/services.html" class="link-light">Services</a></li>
+                        <li><a href="/about.html" class="link-light">About Us</a></li>
+                        <li><a href="/contact.html" class="link-light">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Legal</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="/cookie.html" class="link-light">Cookie Policy</a></li>
+                        <li><a href="/privacypolicy.html" class="link-light">Privacy Policy</a></li>
+                        <li><a href="/cookie.html" class="link-light">Terms of Use</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Connect With Us</h5>
+                    <ul class="list-inline">
+                        <li class="list-inline-item "><a href="#"><i class="fa-brands fa-facebook-f text-light"></i></a>
+                        </li>
+                        <li class="list-inline-item "><a href="#"><i class="fa-brands fa-x-twitter text-light"></i></a>
+                        </li>
+                        <li class="list-inline-item "><a href="#"><i
+                                    class="fa-brands fa-linkedin-in text-light"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <p>&copy; 2023 firm(demo). All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/JS/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js"></script>
+    <script src="/JS/bootstrap.bundle.min.js"></script>
+</body>
+</html>
