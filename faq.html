@@ -9,15 +9,18 @@
     <meta http-equiv="pragma" content="no-cache" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no" />
     <title>A Certified Public Accountant demo website| Certified by United states of America </title>
+    <!-- Favicon -->
+    <link rel="icon" href="/images/favicon.png" type="image/x-icon">
+    <!-- External Stylesheets -->
     <link rel="stylesheet" href="/CSS/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/themes/odometer-theme-default.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&display=swap" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
     <style>
 body { font-family: "Karla", sans-serif !important; } .nav-link:hover { text-decoration: underline; } .faq { padding-top: 5rem; } footer { overflow-x: hidden; } main { overflow-x: hidden; } .contect { padding-top: 6rem; } @media (max-width:968px) { .qoute-btn { display: none; } }
 
@@ -110,50 +113,51 @@ body { font-family: "Karla", sans-serif !important; } .nav-link:hover { text-dec
         </div>
     </header>
     <main>
-
-        <div class="container faq p-5">
-            <h1 class="my-4">Frequently Asked Questions</h1>
-            <div class="accordion" id="faqAccordion">
-                <!-- FAQ 1 -->
-                <div class="card">
-                    <div class="card-header" id="faqHeading1">
-                        <h2 class="mb-0">
-                            <button class="btn btn-link link-dark" type="button" data-toggle="collapse"
-                                data-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
-                                Question 1: What services do you offer?
-                            </button>
-                        </h2>
-                    </div>
-
-                    <div id="faqCollapse1" class="collapse show" aria-labelledby="faqHeading1"
-                        data-parent="#faqAccordion">
-                        <div class="card-body">
+        <div class="container faq">
+        <h1 class="my-4">Frequently Asked Questions</h1>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Question 1: What services do you offer? 
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
                             We offer a wide range of services including tax consultation, audit, financial planning, and
-                            more. Please visit our Services page for detailed information.
-                        </div>
+                            more. Please visit our Services page for detailed information.    
                     </div>
+                  </div>
                 </div>
-
-                <!-- FAQ 2 -->
-                <div class="card">
-                    <div class="card-header" id="faqHeading2">
-                        <h2 class="mb-0">
-                            <button class="btn btn-link collapsed link-dark" type="button" data-toggle="collapse"
-                                data-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
-                                Question 2: How can I schedule a consultation?
-
-                            </button>
-                        </h2>
-                    </div>
-                    <div class="card-body">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Question 2: How can I schedule a consultation?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
                         To schedule a consultation, please fill out the contact form on our Contact Us page, and we
-                        will
-                        get back to you as soon as possible.
+                        will get back to you as soon as possible.
                     </div>
+                  </div>
                 </div>
-            </div>
-        </div>
-    </main>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Question 3: How do you contact us
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Your are email us , please fill out the contact form on our Contact Us page, and we
+                        will get back to you as soon as possible.
+                    </div>
+                  </div>
+                </div>
+              </div>
+                </div>
+     </main>
 
     <footer class="bg-dark text-light py-4 mt-5">
         <div class="container-fluid m-4 p-3">
@@ -200,11 +204,9 @@ body { font-family: "Karla", sans-serif !important; } .nav-link:hover { text-dec
             </div>
         </div>
     </footer>
-
-    <script src="/JS/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
-    <script src="path/to/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js"></script>
     <script src="/JS/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>

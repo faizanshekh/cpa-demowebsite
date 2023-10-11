@@ -1,0 +1,60 @@
+body {
+    font-family: "Karla", sans-serif !important;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+#testimonial.container{
+padding-bottom:6rem;
+}
+main {
+    overflow-x: hidden;
+}
+
+
+
+footer {
+    overflow-x: hidden;
+}
+
+@media (max-width:968px) {
+    .qoute-btn {
+        display: none;
+    }
+}
+.partners-class{
+    padding-bottom:10%;
+
+}
+.services-class{
+    padding-bottom:10%;
+
+}
+.team-class{
+    padding-bottom:10%;
+
+}
+.blog-class{
+    padding-bottom:10%;
+
+}
+#testimonial{
+    padding-bottom:10%;
+
+}
+
+.about-class{
+    padding-bottom:10%;
+ }
+.text-content {
+    margin-top: 14rem;
+}
+
+
+#home{
+    background-image: linear-gradient(white, rgb(255, 227, 175));
+    padding-bottom: 10%;
+    margin-bottom: 6rem;
+
+}
